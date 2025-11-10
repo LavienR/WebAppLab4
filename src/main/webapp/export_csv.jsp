@@ -19,7 +19,7 @@ try {
         "minhquantqd"
     );
 
-    String sql = "SELECT id, student_code, full_name, email, major, create at FROM students ORDER BY id ASC";
+    String sql = "SELECT id, student_code, full_name, email, major, create_at FROM students ORDER BY id ASC";
     pstmt = conn.prepareStatement(sql);
     rs = pstmt.executeQuery();
 
