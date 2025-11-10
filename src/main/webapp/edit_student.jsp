@@ -114,7 +114,7 @@
             <div class="error"><%= request.getParameter("error") %></div>
         <% } %>
         
-        <form action="process_edit.jsp" method="POST" onsubmit="return submitForm(this)>
+        <form action="process_edit.jsp" method="POST" onsubmit="return submitForm(this)">
             <input type="hidden" name="id" value="<%= studentId %>">
             
             <div class="form-group">
