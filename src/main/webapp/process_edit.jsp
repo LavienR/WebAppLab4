@@ -14,7 +14,7 @@
 if (email != null && !email.trim().isEmpty()) {
    if (!email.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$")) {
         // Invalid email format
-        response.sendRedirect("add_student.jsp?error=Invalid email format");
+        response.sendRedirect("edit_student.jsp?error=Invalid email format");
         return;
     }
 }
